@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="wrap">
+    <div class="point"></div>
+    <div class="circle-wrapp">
+        <div class="circle" id="timer_int">
+            <div class="circle__block circle__block_one">
+                <div class="circle__txt">3</div>
+            </div>
+            <div class="circle__block circle__block_two">
+                <div class="circle__txt">4</div>
+            </div>
+            <div class="circle__block circle__block_three">
+                <div class="circle__txt">5</div>
+            </div>
+            <div class="circle__block circle__block_four">
+                <div class="circle__txt">6</div>
+            </div>
+            <div class="circle__block circle__block_five">
+                <div class="circle__txt">1</div>
+            </div>
+            <div class="circle__block circle__block_six">
+                <div class="circle__txt">2</div>
+            </div>
+        </div>
+    </div>
+    <button onClick="timer_start();" class="btn" type="submit">start</button>
+</div>
+
+<div class="popup-wrapp" id="modalPopup">
+    <div class="popup">
+        <div class="popup__header">
+            <div class="popup__close"></div>
+        </div>
+        <div class="popup__content">
+            <div class="popup__img"></div>
+            <div class="popup__txt">1</div>
+        </div>
+        <button id="rotate" onClick="timer_start();" class="btn" type="submit">start</button>
+    </div>
+</div>
+
+<script src="./js/style.js"></script>
+</body>
+</html>
